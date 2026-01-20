@@ -2,6 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import { toast } from "react-toastify";
 
 export default function LoginForm() {
     const router = useRouter();
@@ -13,10 +14,11 @@ export default function LoginForm() {
         e.preventDefault()
         if (email === "user01@gmail.com" && password === "Ab1234$$") {
             document.cookie = "auth=true; path=/";
-            router.push("/products")
+            toast('LogedIn Successfully')
+            router.push("/all-flowers")
         }
         else {
-
+                toast.error('Invalid Email or Password')
         }
     }
 
@@ -44,7 +46,7 @@ export default function LoginForm() {
                 required
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                placeholder=""
+                placeholder="Enter your password"
                 className="mt-1 w-full text-black rounded-md border border-gray-300 px-3 py-2 text-sm focus:ring-2 focus:ring-blue-500"
             />
         </div>
@@ -55,7 +57,7 @@ export default function LoginForm() {
 
         <button
             type="submit"
-            className="w-full bg-primary text-white py-2 rounded-md text-sm font-medium hover:bg-secondary transition"
+            className="w-full btn bg-primary text-white py-2 rounded-md text-sm font-medium hover:bg-secondary cursor-pointer hover:text-black transition"
         >
          LogIn In
         </button>

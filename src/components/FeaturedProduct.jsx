@@ -5,12 +5,13 @@ import product1 from "../../public/red roses bouquet.jpg";
 import product2 from "../../public/pink_tulip.webp";
 import product3 from "../../public/sunflower.webp";
 import product4 from "../../public/mixed_flowers.jpg";
-
+import { FaArrowRight } from "react-icons/fa";
+import Link from "next/link";
 const products = [
-  { name: "Red Roses Bouquet", price: "$29", img: product1 },
-  { name: "Pink Tulips", price: "$25", img: product2 },
-  { name: "Sunflower Bundle", price: "$20", img: product3 },
-  { name: "Mixed Flowers Basket", price: "$35", img: product4 },
+  { name: "Red Roses Bouquet", price: "$25", img: product1 },
+  { name: "Pink Tulips", price: "$20", img: product2 },
+  { name: "Sunflower Bundle", price: "$18", img: product3 },
+  { name: "Mixed Flowers Basket", price: "$40", img: product4 },
 ];
 
 const FeaturedProducts = () => {
@@ -35,9 +36,12 @@ const FeaturedProducts = () => {
                 {product.name}
               </h3>
               <p className="text-pink-600 font-bold mb-2">{product.price}</p>
-              <button className="btn btn-primary w-full">Add to Cart</button>
+              
             </div>
           ))}
+          <div className="text-center">
+            <Link href={'/all-flowers'} className="btn btn-primary w-50">View All  <FaArrowRight /></Link>
+          </div>
         </div>
       </div>
     </section>

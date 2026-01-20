@@ -3,6 +3,8 @@
 import React from "react";
 import Image from "next/image";
 import bannerImage from "../../public/banner.avif"; 
+import Link from "next/link";
+
 
 const Banner = () => {
   return (
@@ -17,9 +19,9 @@ const Banner = () => {
           <p className="text-pink-700 mb-6">
             Fresh flowers for every occasion. Make every moment special with our beautiful arrangements.
           </p>
-          <button className="btn btn-primary btn-lg text-white">
+          <Link href={'/all-flowers'} className="btn btn-primary btn-lg text-white">
             Shop Now
-          </button>
+          </Link>
         </div>
 
         {/* Right image */}

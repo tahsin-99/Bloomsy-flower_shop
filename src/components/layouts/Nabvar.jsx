@@ -1,11 +1,28 @@
-import React from 'react';
+"use client"
+import React, { useEffect, useState } from 'react';
 import Logo from './Logo';
 
 import NavLink from '../buttons/NavLink';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
+import Cookies from 'js-cookie';
+
 
 
 const Navbar = () => {
+   const router = useRouter();
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+  useEffect(() => {
+    // Check if auth cookie exists
+    setIsLoggedIn(Cookies.get("auth") === "true");
+  }, []);
+
+  const handleLogout = () => {
+    Cookies.remove("auth");
+    setIsLoggedIn(false);
+    router.push("/login");
+  };
   const nav=<>
   <li>
     <NavLink href={'/'}>Home</NavLink>
@@ -41,10 +58,17 @@ const Navbar = () => {
       {nav}
     </ul>
   </div>
-  <div className="navbar-end">
-    <Link href={'/login'}>
-    <button className='btn btn-primary btn-outline'>Login</button></Link>
-  </div>
+   <div className="navbar-end">
+        {isLoggedIn ? (
+          <button onClick={handleLogout} className="btn btn-primary btn-outline">
+            Logout
+          </button>
+        ) : (
+          <Link href={"/login"}>
+            <button className="btn btn-primary btn-outline">Login</button>
+          </Link>
+        )}
+      </div>
 </div>
       </>
     );

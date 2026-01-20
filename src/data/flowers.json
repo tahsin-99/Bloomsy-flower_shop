@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Red Roses",
+    "price": 25,
+    "image": "https://i.ibb.co.com/YG5xRQC/red-roses.jpg",
+    "description": "Red roses are the symbol of love. They are very popular around the world. People give red roses on Valentine’s Day. They are also used in weddings. The color red shows deep emotion. These roses look very beautiful. Their petals are soft and smooth. They have a nice natural smell. This bouquet is fresh and bright. It can make anyone smile. Red roses are perfect for romantic gifts. They are good for anniversaries. They are also used for special surprises. This bouquet is carefully arranged. Each rose is hand picked. The flowers stay fresh for many days. They look nice in any room. They make the place more beautiful. Red roses are always in demand. Everyone loves them."
+  },
+  {
+    "id": 2,
+    "name": "Pink Tulips",
+    "price": 20,
+    "image": "https://i.ibb.co.com/fzsvfW84/pink-tulips.webp",
+    "description": "Pink tulips look very soft and gentle. They are loved by many people. The pink color shows care and happiness. These tulips are fresh and bright. They are perfect for gifts. People give them to friends and family. Tulips look nice in any room. Their shape is very beautiful. They have smooth petals. They grow in cool weather. This bunch is carefully made. Each tulip is fresh. They smell light and sweet. They are good for birthdays. They are also good for thank you gifts. They make people smile. They bring happiness. They look very natural. They stay fresh for many days. Pink tulips are always liked."
+  },
+  {
+    "id": 3,
+    "name": "White Lilies",
+    "price": 28,
+    "image": "https://i.ibb.co.com/vCdJdx9N/white-lily.avif",
+    "description": "White lilies look clean and pure. They are used in many events. The white color shows peace. These lilies are very fresh. They look big and beautiful. Their petals are soft. They have a strong sweet smell. They are good for home decoration. People also use them in weddings. They are good for calm feelings. This bouquet is well arranged. Each lily is hand picked. They last many days. They make rooms bright. They look nice on tables. They are good for gifts. They are also used in prayer places. They are loved by many people. They look very elegant. White lilies are special."
+  },
+  {
+    "id": 4,
+    "name": "Sunflower Bunch",
+    "price": 18,
+    "image": "https://i.ibb.co.com/LzqkMQFt/sunflower.jpg",
+    "description": "Sunflowers are very bright. They look like the sun. Their color is yellow. They bring joy. They make people happy. They are tall flowers. Their faces follow the sun. This bunch is fresh. Each flower is big. They look great in homes. They are good for gifts. They show happiness. They are used in farms. They grow in summer. They are strong flowers. They last long. They look good in pictures. They make rooms bright. People love them. Sunflowers are cheerful."
+  },
+  {
+    "id": 5,
+    "name": "Purple Orchids",
+    "price": 35,
+    "image": "https://i.ibb.co.com/HTLLqKMj/purple-orchids.jpg",
+    "description": "Purple orchids look very royal. They are luxury flowers. The purple color shows beauty. They are not very common. They are special flowers. They grow slowly. They need care. They are used for special gifts. They look very smooth. Their petals are soft. They last many days. They look great in pots. They are good for office decoration. They smell light. They are used in hotels. They are expensive. They are beautiful. They show respect. They are rare. Purple orchids are lovely."
+  },
+  {
+    "id": 6,
+    "name": "Yellow Daffodils",
+    "price": 16,
+    "image": "https://i.ibb.co.com/Vcc36nXM/yellow-deffodil.jpg",
+    "description": "Yellow daffodils are very bright. They show friendship. The yellow color is happy. They bloom in spring. They are fresh flowers. They look small and cute. They grow in groups. They smell nice. They are good for gifts. They are good for friends. They are also used in gardens. They look nice in vases. They bring joy. They are light flowers. They stay fresh long. They look natural. They are easy to like. They are simple flowers. They make people smile. Daffodils are lovely."
+  },
+  {
+    "id": 7,
+    "name": "Blue Hydrangea",
+    "price": 30,
+    "image": "https://i.ibb.co.com/9m0ssmwj/blue-hydrangea.webp",
+    "description": "Blue hydrangea looks very calm. The blue color is soft. They grow in groups. Each group has many small flowers. They look very full. They are used in weddings. They are good for gifts. They show peace. They are fresh flowers. They need water. They last many days. They look nice in homes. They are used in events. They look round. They smell light. They are beautiful. They make rooms calm. They are loved by many. They look soft. Hydrangea is special."
+  },
+  {
+    "id": 8,
+    "name": "Peach Carnations",
+    "price": 22,
+    "image": "https://i.ibb.co.com/Ld0LvFfk/peach-carnations.jpg",
+    "description": "Peach carnations look soft. Their color is light orange. They show thanks. They are used for gifts. They are fresh flowers. They grow easily. They are strong flowers. They last long. They look good in bouquets. They are used in events. They smell light. They are smooth. They are used in homes. They make rooms pretty. They are not very big. They are simple. They are nice. They are loved. They show respect. Carnations are beautiful."
+  },
+  {
+    "id": 9,
+    "name": "Mixed Spring Flowers",
+    "price": 40,
+    "image": "https://i.ibb.co.com/fztbQJL4/mixed-spring-flowers.jpg",
+    "description": "This bouquet has many flowers. It has many colors. It looks very bright. It is perfect for celebrations. It is fresh. It is handmade. It has roses. It has tulips. It has lilies. It looks full. It is good for birthdays. It is good for weddings. It is good for parties. It makes people happy. It looks great in photos. It smells nice. It lasts many days. It is colorful. It is beautiful. Everyone likes it."
+  },
+  {
+    "id": 10,
+    "name": "Lavender Bunch",
+    "price": 19,
+    "image": "https://i.ibb.co.com/KcZy1B1r/levender-Bunch.jpg",
+    "description": "Lavender smells very nice. It is used for calm. It is purple. It grows in fields. It is used in perfume. It is used in oil. It is good for sleep. It is fresh. It is light. It is soft. It looks nice in homes. It is used in gifts. It is used in rooms. It is relaxing. It lasts long. It is natural. It is beautiful. It is peaceful. It is loved. Lavender is special."
+  }
+]

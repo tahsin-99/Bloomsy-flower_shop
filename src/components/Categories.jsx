@@ -29,7 +29,7 @@ const Categories = () => {
               <Image
                 src={cat.img}
                 alt={cat.name}
-                className="w-full h-40 object-cover transition-transform group-hover:scale-105"
+                className="w-full h-70 object-cover transition-transform group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-pink-600 bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
                 <h3 className="text-white text-lg font-bold">{cat.name}</h3>
